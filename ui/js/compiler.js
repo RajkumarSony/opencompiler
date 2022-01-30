@@ -45,7 +45,7 @@ function executeCode() {
     else {
         $.ajax({
             type: 'POST',
-            url: '/https://opencompiler.herokuapp.com/compiler.php',
+            url: 'https://opencompiler.herokuapp.com/compiler.php',
             data: {
                 code: code,
                 lang: lang,
