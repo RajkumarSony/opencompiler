@@ -1,0 +1,24 @@
+
+#editor { 
+    height: 420px;
+    font-size: medium;
+ }
+
+#input_div { 
+    height: 45%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#output_div { 
+    height: 40%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-control {
+    width: 95%;
+    resize: none;
+    border-color: black;
+}
+
+.form-control:hover { 
+    border-color: black;
+}
