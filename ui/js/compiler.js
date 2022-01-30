@@ -45,7 +45,7 @@ function executeCode() {
     else {
         $.ajax({
             type: 'POST',
-            url: '/MyCompiler/compiler.php',
+            url: '/opencompiler/compiler.php',
             data: {
                 code: code,
                 lang: lang,
